@@ -31,11 +31,18 @@ In Atom:
 ctrl + F
 Activate regex expressions
 search for 
->131.199.174.193 -  - ......................................................................................2
+```shell 
+131.199.174.193 -  - ......................................................................................2
+```
 Copy token
-> 131.199.174.193 -  - [22/03/2022:18:03:02 UTC+2] "POST /login?token=RkxBR3tzM2M4cjNfbDBnfQ%3D%3D HTTP/1.1" 200 221
+```shell 
+131.199.174.193 -  - [22/03/2022:18:03:02 UTC+2] "POST /login?token=RkxBR3tzM2M4cjNfbDBnfQ%3D%3D HTTP/1.1" 200 221
+```
 Input to online tool
->RkxBR3tzM2M4cjNfbDBnfQ
+```shell 
+RkxBR3tzM2M4cjNfbDBnfQ
+```
+![image](https://user-images.githubusercontent.com/19478700/168066781-a4e96ff6-251f-4e49-9437-69da2cdce81b.png)
 Output flag
 >"FLAG{s3c8r3_l0g}"
 ## Installation
