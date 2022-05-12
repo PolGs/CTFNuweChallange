@@ -11,3 +11,54 @@ Decoded JWT using online tool like cyberchef
 RkxBR3tzM2M4cjNfbDBnfQ
 ### "FLAG{s3c8r3_l0g}"
 
+
+
+
+
+
+
+
+# # CTFNuweChallange
+
+>  Analizar el fichero con los registros de las peticiones HTTP, debemos saber qué cuenta se ha vulnerado.
+
+## Background
+Solved the challange using Atom(regular expressions) and an Online tool to decode the tokens
+
+
+## Usage
+In Atom:
+ctrl + F
+Activate regex expressions
+search for 
+>131.199.174.193 -  - ......................................................................................2
+Copy token
+> 131.199.174.193 -  - [22/03/2022:18:03:02 UTC+2] "POST /login?token=RkxBR3tzM2M4cjNfbDBnfQ%3D%3D HTTP/1.1" 200 221
+Input to online tool
+>RkxBR3tzM2M4cjNfbDBnfQ
+Output flag
+>"FLAG{s3c8r3_l0g}"
+## Installation
+
+```shell
+      no installation needed
+```
+
+## Reconocimientos 
+
+- [The art of readme](https://github.com/hackergrrl/art-of-readme)
+- [common-readme](https://github.com/hackergrrl/common-readme)
+- [JWT - jwt.io](https://jwt.io)
+
+
+## See more
+
+
+
+## Contact info
+
+> polgalvezsoriano@gmail.com || Pol Galvez Soriano
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
